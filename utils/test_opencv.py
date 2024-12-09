@@ -7,3 +7,6 @@ cv2.putText(image, "('-')", (20, 150), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0),
 cv2.imshow("test", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+

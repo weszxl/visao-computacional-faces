@@ -20,3 +20,5 @@ def verificar_cameras():
 
 if __name__ == "__main__":
     verificar_cameras()
+
+
