@@ -10,10 +10,10 @@ def identify_face():
     know_enconding = np.array(training_data["encodings"])
     if len(know_enconding) == 0:
         raise ValueError("no encoding found")
-    capture_video = cv2.VideoCapture(0)
+    capture_video = cv2.VideoCapture(0) # altere para 0 ou 1 
     if not capture_video.isOpened():
         raise Exception("webcam has a problem")
-    print("Inicializing... 'Q' to break process")
+    print("inicializing... 'Q' to break process")
 
     try:
         while True:

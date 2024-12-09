@@ -4,7 +4,7 @@ import os
 def face_capt(user):
     folder = f"data/{user}"
     os.makedirs(folder, exist_ok=True)
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(0) # altere para 0 ou 1 
     detector = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     count = 0
     print("'Q' to end process.")
